@@ -6,13 +6,12 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class JobUser {
+public class UpdateUser {
     @Expose
     String name;
     @Expose
     String job;
     @Expose
-    String id;
-    @Expose
-    String createdAt;
+    String updatedAt;
+
 }
